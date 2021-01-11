@@ -1,0 +1,23 @@
+.pedidos__body {
+    background-color: #082e7b;
+
+}
+
+.tabla {
+    overflow: auto;
+}
+
+.tabla__titulo {
+    padding: 2rem;
+}
+
+table td,
+th {
+    text-align: center;
+}
+
+.tabla__fila th {
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+}

@@ -1,0 +1,30 @@
+.nav__titulo {
+    color: black;
+}
+
+.nav__menu {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    align-items: center;
+}
+
+.nav__logo {
+    width: 10rem;
+    height: 3rem;
+}
+
+.nav__name {
+    font-size: 1.5rem;
+    color: rgb(0, 99, 173);
+    width: 100%;
+    text-align: center;
+}
+
+.nav__container {
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}

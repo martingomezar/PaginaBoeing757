@@ -1,0 +1,30 @@
+.contacto {
+    margin: 0px;
+    padding: 0px;
+}
+
+.contacto__fondo {
+    position: relative;
+    width: 100%;
+}
+
+.contacto__container {
+    position: absolute;
+    top: 50%;
+    right: 12rem;
+    font-size: 1.5rem;
+}
+
+li {
+    list-style: none;
+    padding: 0.2rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: azure;
+}
