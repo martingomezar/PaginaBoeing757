@@ -18,102 +18,155 @@
 
 <body class="desarrollo__body">
 
-    <nav class="navbar navbar-expand-sm navbar-light bg-light">
-        <div class="container-fluid">
-            <img src="../assets/images/boeing_logo.png" class="nav__logo" alt="">
-            <h3 class="nav__titulo">Desarrollo</h3>
-        </div>
-        <ul class="navbar-nav me-auto mb-2 mb-sm-0 nav__menu" id="menu">
-            <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
-            <li class="nav-item">
-                <a class="nav-link" href="../pages/diseno.html">Diseño</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="../pages/variantes.html">Variantes</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="../pages/pedidos.html">Pedidos</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
-            </li>
+    <nav class="nav">
+        <img src="../assets/images/boeing_logo.png" class="nav__logo" alt="">
+        <h3 class="nav__titulo">Desarrollo</h3>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a class="menu__item" href="../index.html">Home</a></li>
+            <li><a class="menu__item" href="../pages/diseno.html">Diseño</a></li>
+            <li><a class="menu__item" href="../pages/variantes.html">Variantes</a></li>
+            <li><a class="menu__item" href="../pages/pedidos.html">Pedidos</a></li>
+            <li><a class="menu__item" href="../pages/contacto.html">Contacto</a></li>
         </ul>
     </nav>
 
+
     <div class="container-fluid">
         <div class="row d-flex justify-content-around">
-            <div class="card desarrollo__card col-12 col-sm-12 col-md-3">
+            <div class="card __card col-12 col-sm-12 col-md-3">
                 <img src="../assets/images/desarrollo/avion_hd.jpg" alt="" class="card-img-top card__img">
-                <div class="card-body">
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary modal__button center" data-bs-toggle="modal"
+                    data-bs-target="#staticBackdropAntecedentes">
                     <h3 class="h3 card-title card__title">Antecedentes</h3>
-                    <p class="card__texto card-text">A principios de 1970, Boeing comenzó a considerar la
-                        evolución de
-                        su trijet 727 de fuselaje estrecho. Los estudios se centraron en mejorar los modelos 727-200 de
-                        189
-                        asientos, la variante más
-                        exitosa del 727. El primero era un derivado más barato utilizando la tecnología existente de 727
-                        y
-                        la configuración
-                        del motor montado en la cola, mientras que el segundo era un avión bimotor que hacía uso de
-                        nuevos
-                        materiales y mejoras en la tecnología de propulsión que se había vuelto disponibles en la
-                        industria
-                        aeroespacial
-                        civil.
-                    </p>
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdropAntecedentes" data-bs-backdrop="static"
+                    data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content modal__background">
+                            <div class="modal-header">
+                                <h5 class="modal-title " id="staticBackdropLabel">Antecedentes</h5>
+                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body modal__text">
+                                A principios de 1970, Boeing comenzó a considerar la
+                                evolución de
+                                su trijet 727 de fuselaje estrecho. Los estudios se centraron en mejorar los modelos
+                                727-200 de
+                                189
+                                asientos, la variante más
+                                exitosa del 727. El primero era un derivado más barato utilizando la tecnología
+                                existente de 727
+                                y
+                                la configuración
+                                del motor montado en la cola, mientras que el segundo era un avión bimotor que hacía
+                                uso de
+                                nuevos
+                                materiales y mejoras en la tecnología de propulsión que se había vuelto disponibles
+                                en la
+                                industria
+                                aeroespacial
+                                civil.
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="card desarrollo__card col-12 col-sm-12 col-md-3">
+            <div class="card __card col-12 col-sm-12 col-md-3">
                 <img src="../assets/images/desarrollo/plano.jpg" alt="" class="card-img-top card__img">
-                <div class="card-body">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary modal__button" data-bs-toggle="modal"
+                    data-bs-target="#staticBackdropDiseno">
                     <h3 class="h3 card-title card__title">Diseño y Construccion</h3>
-                    <p class="card__texto card-text">Boeing construyó una línea de montaje final en su
-                        fábrica de Renton. British Airways y Rolls-Royce cabildearon sin éxito la industria aeronáutica
-                        británica para
-                        la
-                        fabricación de las alas del 757. En última instancia, alrededor de la mitad de los componentes
-                        de la
-                        aeronave, incluyendo las alas, la sección de la nariz y el empenaje, se produjeron internamente
-                        en
-                        las
-                        instalaciones de Boeing, y el resto subcontratando empresas principalmente de Estados Unidos.​
-                        Vista lateral de la aeronave en vuelo con el tren extendido.
-                        British Airways fue uno de los primeros clientes de 757 propulsado con motores
-                        El prototipo del 757 salió de la fábrica de Renton en 13 de enero de 1982.33​ La
-                        aeronave,
-                        equipado
-                        con
-                        motores
-                        RB211-535C. El primer 757 con motores PW2037 lanzado un año más
-                        tarde, fue entregado a Delta Air Lines el 5 de noviembre de 1984.
-                    </p>
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdropDiseno" data-bs-backdrop="static" data-bs-keyboard="false"
+                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content modal__background">
+                            <div class="modal-header">
+                                <h5 class="modal-title " id="staticBackdropLabel">Diseño y Construccion</h5>
+                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body modal__text"> Boeing construyó una línea de montaje final en su
+                                fábrica de Renton. British Airways y Rolls-Royce cabildearon sin éxito la industria
+                                aeronáutica
+                                británica para
+                                la
+                                fabricación de las alas del 757. En última instancia, alrededor de la mitad de los
+                                componentes
+                                de la
+                                aeronave, incluyendo las alas, la sección de la nariz y el empenaje, se produjeron
+                                internamente
+                                en
+                                las
+                                instalaciones de Boeing, y el resto subcontratando empresas principalmente de Estados
+                                Unidos.​
+                                Vista lateral de la aeronave en vuelo con el tren extendido.
+                                British Airways fue uno de los primeros clientes de 757 propulsado con motores
+                                El prototipo del 757 salió de la fábrica de Renton en 13 de enero de 1982.33​ La
+                                aeronave,
+                                equipado
+                                con
+                                motores
+                                RB211-535C. El primer 757 con motores PW2037 lanzado un año más
+                                tarde, fue entregado a Delta Air Lines el 5 de noviembre de 1984.
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="card desarrollo__card col-12 col-sm-12 col-md-3">
+            <div class="card __card col-12 col-sm-12 col-md-3">
                 <img src="../assets/images/desarrollo/757vira.jpg" alt="" class="card-img-top card__img">
-                <div class="card-body">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary modal__button" data-bs-toggle="modal"
+                    data-bs-target="#staticBackdropDiseno">
                     <h3 class="h3 card-title card__title">Produccion y Pruebas</h3>
-                    <p class="card__texto card-text">El 757 fue pensado para tener mayor capacidad y ser más
-                        eficiente que el anterior 727.​ El enfoque en la eficiencia del combustible reflejaba las
-                        preocupaciones de las aerolíneas sobre los
-                        costos de operación. Los objetivos de diseño incluyeron una reducción del 20 por ciento en el
-                        consumo de
-                        combustible de los nuevos motores, más un 10 por ciento adicional en las mejoras aerodinámicas,
-                        frente a las
-                        aeronaves precedentes. El peso máximo de despegue (MTOW) se fijó en 99 800 kg,​ que ascendía a
-                        4540 kg más que el 727.
-                        Las alas más eficientes tenían menos resistencia y una mayor capacidad de combustible,6​ y
-                        fueron
-                        similares en configuración a las del 767.
-                    </p>
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdropDiseno" data-bs-backdrop="static" data-bs-keyboard="false"
+                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content modal__background">
+                            <div class="modal-header">
+                                <h5 class="modal-title " id="staticBackdropLabel">Produccion y Pruebas</h5>
+                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body modal__text">El 757 fue pensado para tener mayor capacidad y ser más
+                                eficiente que el anterior 727.​ El enfoque en la eficiencia del combustible reflejaba
+                                las
+                                preocupaciones de las aerolíneas sobre los
+                                costos de operación. Los objetivos de diseño incluyeron una reducción del 20 por ciento
+                                en el
+                                consumo de
+                                combustible de los nuevos motores, más un 10 por ciento adicional en las mejoras
+                                aerodinámicas,
+                                frente a las
+                                aeronaves precedentes. El peso máximo de despegue (MTOW) se fijó en 99 800 kg,​ que
+                                ascendía a
+                                4540 kg más que el 727.
+                                Las alas más eficientes tenían menos resistencia y una mayor capacidad de combustible,6​
+                                y
+                                fueron
+                                similares en configuración a las del 767.
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"></script>
-    </div>
 </body>
 
 </html>

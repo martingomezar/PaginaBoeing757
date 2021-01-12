@@ -7,8 +7,23 @@
     background-color: #D2E3FC;
 }
 
-.desarrollo__card {
+.__card {
     background-color: #082e7b;
     padding: 1rem;
     margin: 1rem;
+    margin-top: 3rem;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.modal__background{
+    background-color: #082e7b;
+}
+
+.modal__button{
+    margin-top: 20%;
+}
+
+.modal__text{
+    text-align: justify;
 }

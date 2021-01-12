@@ -171,6 +171,7 @@ a {
     padding-bottom: 1rem;
 }
 
+
 @media (min-width: 991px) {
 
     .index__container {
@@ -196,19 +197,6 @@ a {
             "tres cuatro"
             "cinco seis";
     }
-
-    .contacto__container {
-        position: absolute;
-        top: 85%;
-        right: 4rem;
-        font-size: 0.8rem;
-    }
-    .contacto__h3{
-        font-size: 1rem;
-    }
-
-    
-
 }
 
 
@@ -246,13 +234,7 @@ a {
             "seis";
     }
 
-    .contacto__container {
-        position: absolute;
-        top: 70%;
-        right: 4rem;
-        font-size: 0.8rem;
-    }
-    .contacto__h3{
+    .contacto__h3 {
         font-size: 1rem;
     }
 

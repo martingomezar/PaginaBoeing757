@@ -18,29 +18,21 @@
 </head>
 
 <body class="contacto">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid align-content-between">
-            <img src="../assets/images/boeing_logo.png" class="nav__logo" alt="">
-            <h3 class="nav__titulo">Contacto</h3>
-        </div>
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav__menu">
-            <li class="nav-item"><a class="nav-link active" aria-current="page" href="../index.html">Home</a></li>
-            <li class="nav-item">
-                <a class="nav-link" href="../pages/desarrollo.html">Desarrollo</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="../pages/diseno.html">Diseño</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="../pages/variantes.html">Variantes</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="../pages/pedidos.html">Pedidos</a>
-            </li>
+    <nav class="nav">
+        <img src="../assets/images/boeing_logo.png" class="nav__logo" alt="">
+        <h3 class="nav__titulo">Contacto</h3>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a class="menu__item" href="../index.html">Home</a></li>
+            <li><a class="menu__item" href="../pages/desarrollo.html">Desarrollo</a></li>
+            <li><a class="menu__item" href="../pages/diseno.html">Diseño</a></li>
+            <li><a class="menu__item" href="../pages/variantes.html">Variantes</a></li>
+            <li><a class="menu__item" href="../pages/pedidos.html">Pedidos</a></li>
         </ul>
     </nav>
     <img src="../assets/images/about/fondo.jpg" class="text-center bg-image .img-fluid contacto__fondo">
-    <div class="contacto__container">
+    <div class="container contacto__container col-10 col-md-8 col-md">
         <ul>
             <li>
                 <h3 class="contacto__h3">Proyecto Final Desarrollo Web</h3>
@@ -51,7 +43,8 @@
             </li>
             <li><i class="fab fa-html5 fa-2x"></i> HTML5</li>
             <li><i class="fab fa-css3-alt fa-2x"></i> <i class="fab fa-sass fa-2x"></i></i> CSS3/SCSS</li>
-            <li><i class="fab fa-github fa-2x"></i> <a href="https://github.com/martingomezar/entrega_4"> Ingresar al codigo en github</a> </li>
+            <li><i class="fab fa-github fa-2x"></i> <a href="https://github.com/martingomezar/entrega_4"> Ingresar al
+                    codigo en github</a> </li>
         </ul>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
