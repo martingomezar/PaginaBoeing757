@@ -5,11 +5,13 @@
 
 .nav__titulo {
     color: black;
+    font-size: 1.3rem;
 }
 
 /* header */
 
 .nav {
+    min-height: 5rem;
     background-color: #fff;
     box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
     position: fixed;
@@ -17,7 +19,7 @@
     z-index: 3;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .nav ul {
@@ -111,9 +113,8 @@
     top: 0;
 }
 
-/* 48em = 768px */
 
-@media (min-width: 48em) {
+@media (min-width: 992px) {
     .nav li {
         float: left;
     }

@@ -171,6 +171,9 @@ a {
     padding-bottom: 1rem;
 }
 
+.inicio__info{
+    padding-top: 70px;
+}
 
 @media (min-width: 991px) {
 
@@ -198,8 +201,6 @@ a {
             "cinco seis";
     }
 }
-
-
 
 @media (max-width: 576px) {
 
@@ -233,9 +234,4 @@ a {
             "cinco"
             "seis";
     }
-
-    .contacto__h3 {
-        font-size: 1rem;
-    }
-
 }

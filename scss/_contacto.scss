@@ -1,18 +1,6 @@
-.contacto {
-    margin: 0px;
-    padding: 0px;
-}
-
-.contacto__fondo {
-    position: relative;
-    width: 100%;
-}
-
 .contacto__container {
-    position: absolute;
-    top: 50%;
     right: 12rem;
-    font-size: 1.5rem;
+    font-size: 1.8vw;
 }
 
 li {
@@ -25,6 +13,83 @@ a {
     color: white;
 }
 
-a:hover{
+a:hover {
     color: azure;
+}
+
+@media (min-width: 769px) {
+
+    .contacto__bk {
+        background-image: url(../assets/images/about/fondo.jpg);
+        background-size: cover;
+        height: 60vw;
+    }
+
+    .contacto__h3 {
+        font-size: 3vw;
+    }
+
+    .contacto__table {
+        padding-top: 15vw;
+        padding-left: 12rem;
+        font-size: 2vw;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .contacto__bk {
+        background-image: url(../assets/images/about/fondo.jpg);
+        background-size: cover;
+        height: 80vw;
+    }
+
+    .contacto__h3 {
+        font-size: 4.5vw;
+    }
+
+    .contacto__table {
+        padding-top: 20vw;
+        padding-left: 6rem;
+        font-size: 2.5vw;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .contacto__bk {
+        background-image: url(../assets/images/about/fondo.jpg);
+        background-size: cover;
+        height: 100vw;
+    }
+
+    .contacto__h3 {
+        font-size: 5.5vw;
+    }
+
+    .contacto__table {
+        padding-top: 20vw;
+        padding-left: 3rem;
+        font-size: 4vw;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .contacto__bk {
+        background-image: url(../assets/images/about/fondo.jpg);
+        background-size: cover;
+        height: 120vw;
+    }
+
+    .contacto__h3 {
+        font-size: 5.5vw;
+    }
+
+    .contacto__table {
+        padding-top: 35vw;
+        padding-left: 1.5rem;
+        font-size: 4vw;
+    }
 }
