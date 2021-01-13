@@ -184,57 +184,187 @@ a {
 a:hover {
   color: azure; }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .contacto__bk {
     background-image: url(../assets/images/about/fondo.jpg);
     background-size: cover;
-    filter: grayscale(100%);
-    height: 100vh; }
-  .contacto__h3 {
-    font-size: 3vw; }
+    height: 120vh; }
   .contacto__table {
-    padding-top: 20vh;
-    padding-left: 12rem;
+    position: absolute;
+    align-self: start;
+    padding-top: 1vh;
+    font-size: 1vw;
+    padding-right: 10rem; }
+  .contacto__sobre {
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    align-self: end;
+    top: 30vh;
+    right: 2vw;
+    background-color: #0d46b9;
+    opacity: 0.5;
+    border-radius: 25px;
+    width: 50%;
+    height: 80%; }
+  .contacto__h3 {
+    font-size: 2.5vw; }
+  .contacto__table {
+    position: absolute;
+    align-self: start;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10vh;
+    padding-left: 5rem;
     font-size: 2vw; } }
+
+@media (min-width: 991px) {
+  .contacto__bk {
+    background-image: url(../assets/images/about/fondo.jpg);
+    background-size: cover;
+    height: 140vh; }
+  .contacto__table {
+    position: absolute;
+    align-self: start;
+    padding-top: 10vh;
+    padding-left: 5rem;
+    font-size: 1.5vw; }
+  .contacto__sobre {
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    align-self: end;
+    top: 30vh;
+    right: 4vw;
+    background-color: #0d46b9;
+    opacity: 0.5;
+    border-radius: 25px;
+    width: 50%;
+    height: 100%; } }
+
+@media (min-width: 1024px) {
+  .contacto__bk {
+    background-image: url(../assets/images/about/fondo.jpg);
+    background-size: cover;
+    height: 140vh; }
+  .contacto__table {
+    position: absolute;
+    align-self: start;
+    padding-top: 10vh;
+    padding-left: 2rem;
+    font-size: 1.3vw; }
+  .contacto__sobre {
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    align-self: end;
+    top: 30vh;
+    right: 4vw;
+    background-color: #0d46b9;
+    opacity: 0.5;
+    border-radius: 25px;
+    width: 50%;
+    height: 100%; } }
+
+@media (min-width: 1440px) {
+  .contacto__bk {
+    background-image: url(../assets/images/about/fondo.jpg);
+    background-size: cover;
+    height: 140vh; }
+  .contacto__table {
+    position: absolute;
+    align-self: start;
+    padding-top: 10vh;
+    padding-left: 5rem;
+    font-size: 1.5vw; }
+  .contacto__sobre {
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    align-self: end;
+    top: 20vh;
+    right: 4vw;
+    background-color: #0d46b9;
+    opacity: 0.5;
+    border-radius: 25px;
+    width: 50%;
+    height: 110%; } }
 
 @media (max-width: 768px) {
   .contacto__bk {
     background-image: url(../assets/images/about/fondo.jpg);
     background-size: cover;
-    filter: grayscale(100%);
-    height: 100vh; }
-  .contacto__h3 {
-    font-size: 4.5vw; }
+    height: 140vh; }
   .contacto__table {
-    padding-top: 25vh;
-    padding-left: 6rem;
+    position: absolute;
+    align-self: start;
+    padding-top: 10vh;
+    padding-left: 5rem;
+    font-size: 1.5vw; }
+  .contacto__sobre {
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    align-self: end;
+    top: 30vh;
+    right: 4vw;
+    background-color: #0d46b9;
+    opacity: 0.5;
+    border-radius: 25px;
+    width: 50%;
+    height: 100%; }
+  .contacto__h3 {
     font-size: 2.5vw; } }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
   .contacto__bk {
     background-image: url(../assets/images/about/fondo.jpg);
     background-size: cover;
-    filter: grayscale(100%);
-    height: 100vh; }
-  .contacto__h3 {
-    font-size: 5.5vw; }
+    height: 110vh; }
   .contacto__table {
-    padding-top: 25vh;
-    padding-left: 3rem;
-    font-size: 4vw; } }
+    padding: 0;
+    position: absolute;
+    align-self: start;
+    padding-top: 10vh;
+    font-size: 2vw; }
+  .contacto__sobre {
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    align-self: end;
+    top: 25vh;
+    right: 4vw;
+    background-color: #0d46b9;
+    opacity: 0.5;
+    border-radius: 25px;
+    width: 50%;
+    height: 80%; }
+  .contacto__h3 {
+    font-size: 3vw; } }
 
 @media (max-width: 320px) {
   .contacto__bk {
     background-image: url(../assets/images/about/fondo.jpg);
     background-size: cover;
-    filter: grayscale(100%);
     height: 100vh; }
-  .contacto__h3 {
-    font-size: 5.5vh; }
   .contacto__table {
-    padding-top: 30vh;
-    padding-left: 1.5rem;
-    font-size: 4vw; } }
+    padding: 0;
+    position: absolute;
+    align-self: start;
+    padding-top: 10vh;
+    font-size: 2.2vw; }
+  .contacto__sobre {
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    align-self: end;
+    top: 25vh;
+    right: 4vw;
+    background-color: #0d46b9;
+    opacity: 0.5;
+    border-radius: 25px;
+    width: 50%;
+    height: 70%; } }
 
 .pedidos__body {
   background-color: #082e7b; }
@@ -253,6 +383,10 @@ th {
   padding: 1rem;
   margin: 1rem;
   text-align: center; }
+
+.svg__color {
+  padding-top: 5px;
+  filter: invert(1); }
 
 /* SCSS */
 * {
