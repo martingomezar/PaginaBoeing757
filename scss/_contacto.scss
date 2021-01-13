@@ -22,7 +22,8 @@ a:hover {
     .contacto__bk {
         background-image: url(../assets/images/about/fondo.jpg);
         background-size: cover;
-        height: 60vw;
+        filter: grayscale(100%);
+        height: 100vh;
     }
 
     .contacto__h3 {
@@ -30,7 +31,7 @@ a:hover {
     }
 
     .contacto__table {
-        padding-top: 15vw;
+        padding-top: 20vh;
         padding-left: 12rem;
         font-size: 2vw;
     }
@@ -42,7 +43,8 @@ a:hover {
     .contacto__bk {
         background-image: url(../assets/images/about/fondo.jpg);
         background-size: cover;
-        height: 80vw;
+        filter: grayscale(100%);
+        height: 100vh;
     }
 
     .contacto__h3 {
@@ -50,7 +52,7 @@ a:hover {
     }
 
     .contacto__table {
-        padding-top: 20vw;
+        padding-top: 25vh;
         padding-left: 6rem;
         font-size: 2.5vw;
     }
@@ -61,7 +63,8 @@ a:hover {
     .contacto__bk {
         background-image: url(../assets/images/about/fondo.jpg);
         background-size: cover;
-        height: 100vw;
+        filter: grayscale(100%);
+        height: 100vh;
     }
 
     .contacto__h3 {
@@ -69,7 +72,7 @@ a:hover {
     }
 
     .contacto__table {
-        padding-top: 20vw;
+        padding-top: 25vh;
         padding-left: 3rem;
         font-size: 4vw;
     }
@@ -80,15 +83,16 @@ a:hover {
     .contacto__bk {
         background-image: url(../assets/images/about/fondo.jpg);
         background-size: cover;
-        height: 140vw;
+        filter: grayscale(100%);
+        height: 100vh;
     }
 
     .contacto__h3 {
-        font-size: 5.5vw;
+        font-size: 5.5vh;
     }
 
     .contacto__table {
-        padding-top: 45vw;
+        padding-top: 30vh;
         padding-left: 1.5rem;
         font-size: 4vw;
     }
