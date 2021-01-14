@@ -3,7 +3,7 @@ $def-font: small-caps;
 $menu-color:rgb(16, 49, 136);
 $opaci:0.9;
 
-@import 'desarrollo.scss', 'diseno.scss', 'variantes.scss', 'nav.scss', 'contacto.scss', 'pedidos.scss', 'footer.scss';
+@import 'desarrollo.scss', 'diseno.scss', 'variantes.scss', 'nav.scss', 'contacto.scss', 'pedidos.scss', 'footer.scss', 'cards.scss', 'modal.scss';
 
 /* SCSS */
 
@@ -171,7 +171,7 @@ a {
     padding-bottom: 1rem;
 }
 
-.inicio__info{
+.inicio__info {
     padding-top: 70px;
 }
 
@@ -187,6 +187,8 @@ a {
             "cuatro cuatro cinco seis";
     }
 }
+
+/* media query para la pagina INDEX */
 
 @media (max-width: 780px) {
 

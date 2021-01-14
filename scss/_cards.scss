@@ -1,0 +1,38 @@
+
+/* Cards todas las paginas*/
+
+.__card {
+    background-color: #082e7b;
+    padding: 1rem;
+    margin: 1rem;
+    margin-top: 3rem;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.card__noboton{
+    width: 100%;
+    height: 3.5rem;
+    background-color: #0D6EFD;
+    border-radius: 5px;
+    padding-top: 5px;
+}
+
+.card__img{
+    width: 100%;
+    height: 12rem;
+    object-fit: scale-down;
+
+}
+
+.card__texto {
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.card__title {
+    font-size: 1rem;
+    align-content: center;
+    position: relative;
+    top: 20%;
+}
