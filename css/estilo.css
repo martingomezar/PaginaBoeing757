@@ -374,10 +374,6 @@ th {
   height: 12rem;
   object-fit: scale-down; }
 
-.card__texto {
-  font-size: 1rem;
-  text-align: justify; }
-
 .card__title {
   font-size: 1rem;
   align-content: center;
@@ -392,7 +388,7 @@ th {
   margin-top: 20%; }
 
 .modal__text {
-  text-align: justify; }
+  text-align: left; }
 
 /* SCSS */
 * {
