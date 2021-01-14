@@ -30,6 +30,9 @@
   border-radius: 5px;
   padding-top: 5px; }
 
+.card__img {
+  object-fit: scale-down; }
+
 .diseno__texto {
   font-size: 1rem;
   text-align: justify; }
@@ -77,7 +80,7 @@
 
 .nav__titulo {
   color: black;
-  font-size: 1.3rem; }
+  font-size: 1.4rem; }
 
 /* header */
 .nav {
@@ -164,7 +167,7 @@
 .nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
   top: 0; }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .nav li {
     float: left; }
   .nav li a {
@@ -392,8 +395,14 @@ th {
   text-align: center; }
 
 .svg__color {
-  padding-top: 5px;
+  padding-top: 3px;
   filter: invert(1); }
+
+.footer {
+  margin-bottom: 0px; }
+
+.footer__animation :hover {
+  opacity: 0.5; }
 
 /* SCSS */
 * {

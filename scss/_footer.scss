@@ -1,4 +1,12 @@
-.svg__color{
-    padding-top: 5px;
+.svg__color {
+    padding-top: 3px;
     filter: invert(1);
+}
+
+.footer {
+    margin-bottom: 0px;
+}
+
+.footer__animation :hover {
+    opacity: 0.5;
 }
