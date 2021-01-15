@@ -348,7 +348,8 @@ th {
   filter: invert(1); }
 
 .footer {
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+  bottom: 0; }
 
 .footer__animation :hover {
   opacity: 0.5; }
